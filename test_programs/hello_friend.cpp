@@ -3,5 +3,5 @@
 
 int main()
 {
-    std::cout << "Hello friend.";
+    std::cout << "Hello friend.";//standard character output device
 }
