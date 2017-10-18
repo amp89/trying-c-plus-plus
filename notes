@@ -1,3 +1,5 @@
+Note: a lot of things are in examples, not written here
+
 clang complier
     COMPILE:
     clang++ -std=c++11 -stdlib=libc++ example.cpp -o example_program
@@ -11,3 +13,117 @@ clang complier
 
 using namespace std
     then instead of std::cout, you can do just cout
+
+
+Identifiers:
+alignas
+alignof
+and
+and_eq
+asm
+auto
+bitand
+bitor
+bool
+break
+case
+catch
+char
+char16_t
+char32_t
+class
+compl
+const
+constexpr
+const_cast
+continue
+decltype
+default
+delete
+do
+double
+dynamic_cast
+else
+enum
+explicit
+export
+extern
+false
+float
+for
+friend
+goto
+if
+inline
+intlong
+mutable
+namespace
+new
+noexcept
+not
+not_eq
+nullptr
+operator
+or
+or_eq
+private
+protected
+public
+register
+reinterpret_cast
+return
+short
+signed
+sizeof
+static
+static_assert
+static_cast
+struct
+switch
+template
+this
+thread_local
+throw
+true
+try
+typedef
+typeid
+typename
+union
+unisgned
+usingvirtual
+void
+volatile
+wchar_t
+while
+xor
+xor_eq
+
+
+Important ones:
+    char - 8+ bit
+    char16_t - 16+_bit
+    char32_t - 32+ bit
+    wchar_t - "largest supported character set"
+    signed char - 8+ bit
+    signed short int - at least 16 bits
+    signed int, at lest 16 bits
+    signed long int, at least 32 bits
+    signed long long int, at least 64 bits
+
+    unsigned [char, short int, int, long int, long long int]
+
+    float
+    dobule
+    long double
+
+    bool
+    void (no storage?)
+    decltype(nullptr) null pointer
+
+    2**bitsize - max value
+
+initing
+    normal int a, b;
+    constructor int x (92);
+    uniform: int x {92};
