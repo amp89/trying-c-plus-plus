@@ -127,3 +127,7 @@ initing
     normal int a, b;
     constructor int x (92);
     uniform: int x {92};
+
+
+strings must be imported.... #include <string>
+end; ends line
