@@ -3,3 +3,5 @@ clang complier
     clang++ -std=c++11 -stdlib=libc++ example.cpp -o example_program
     RUN:
     ./example_program
+
+    compiling with clang++ example.cpp -o example_program //works for the Hello world example
