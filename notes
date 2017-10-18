@@ -5,3 +5,9 @@ clang complier
     ./example_program
 
     compiling with clang++ example.cpp -o example_program //works for the Hello world example
+
+/////////////////
+
+
+using namespace std
+    then instead of std::cout, you can do just cout
