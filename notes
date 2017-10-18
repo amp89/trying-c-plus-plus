@@ -1,0 +1,5 @@
+clang complier
+    COMPILE:
+    clang++ -std=c++11 -stdlib=libc++ example.cpp -o example_program
+    RUN:
+    ./example_program
