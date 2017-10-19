@@ -131,3 +131,112 @@ initing
 
 strings must be imported.... #include <string>
 end; ends line
+
+
+/////contsnats////
+
+
+suffix | type
+u U unsigned
+l L long
+ll LL long long
+//
+f F float
+l L long double
+//
+eg:
+75u
+33ll
+33ul
+44lu
+
+3.14159L
+6.02e23f
+
+chars
+'z' //character (single quotes)
+"hi" //string (double quotes)
+
+escape codes
+n newline
+r returnt tab
+v vert tab
+b backspace
+f form feed
+a alert (beep!!! (idk why this is so amusing to me))
+'
+"
+?
+\
+
+
+make strings go together
+"like this"  "and stuff"
+"and even this will work"   "and this too (tab)"
+
+
+//char prefixes
+u char16_t
+U char32_t
+L wchar_t
+
+u8 //utf8 string literal
+R //raw string (doesn't care about escaping )
+
+
+true
+false
+int* p = nullptr; // nullptr = null pointer value
+
+
+//////constant expressions
+
+const double pi = 3.1415926;
+
+preprocessor definitions
+
+#define PI 3.14159//not type checked
+
+///operatores...
+
+same old stuff
+
+y = 2 + (x=5) //works (if x and y are defined)
+y  = z = x= 6546; //works
+
+
+standard + - * / %
+
++= -= /= *=
+x *= a + b; == x = x * (a+b)
+
+
+++x; == x++1;
+
+++x, before, x++, after
+
+=- !- < > <= >=
+
+! && ||
+
+
+condition ? true : false
+
+
+bitwise operators
+
+&//and
+|//or
+^//xor
+~//not
+<<shl
+>>shr
+
+int i;
+i = (int)someFloat;//truncate
+
+sizeof (<something>) //how many bytes
+
+//precedence
+
+don't feel like writing that all out http://www.cplusplus.com/doc/tutorial/operators/
