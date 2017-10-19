@@ -240,3 +240,32 @@ sizeof (<something>) //how many bytes
 //precedence
 
 don't feel like writing that all out http://www.cplusplus.com/doc/tutorial/operators/
+
+
+
+////////////////I/o///////////////
+
+cin std input
+cout std output
+cerr std error
+clog std logging
+
+<< is called the insertion operator
+you can chain insertion operators
+
+endl flushes output, \n does not
+int a;
+cin >> a
+
+int a;
+int b;
+
+cin >> a;
+cin >> b;
+//or
+cin >> a >> b;
+
+
+for strings, cin must be single word
+
+use: getline(cin,assignVar)
