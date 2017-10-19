@@ -9,6 +9,13 @@ int main()
     int a;
     int b;
 
+    string someString;
+    getline(cin, someString);
+    cout << "someString (getline): " << someString << endl;
+
+    cout << "/////////////////////////////" << endl;
+
+
     cin >> a >> b;
     cout << "a:" << a << "b:" << b << endl;
 

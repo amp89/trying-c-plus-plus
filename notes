@@ -269,3 +269,5 @@ cin >> a >> b;
 for strings, cin must be single word
 
 use: getline(cin,assignVar)
+
+string stream #include <sstream>
