@@ -64,6 +64,4 @@ int main()
     for(char someChar : "HeLlLllLlOoOooo"){
         cout << someChar << endl;
     }
-
-
 }
