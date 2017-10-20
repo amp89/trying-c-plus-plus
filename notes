@@ -334,3 +334,59 @@ switch (expression of some sort){
     default:
       do default things
 }
+
+
+///// funcitons
+
+..same old crap
+
+type name (identifier param, ...){function stuff}
+
+
+!!!!! pass by reference / pass by value difference
+
+void somePassByRefStuff(int& aRef, int bCopy){
+    blah blah blah...
+
+}
+
+
+reference is faster than copy
+
+string concatStuff(const string& a, const string& b) << can access but not modify
+
+///////////////////inline functions///////////////////
+
+marking a function "inline" puts the function at the part of the code where it is
+
+
+inline string doStuff(){return "stuff"}
+
+compiles whatever doStuff does inline when compiled
+
+most compilers do this anyways?
+
+/////defaults////////
+
+int doThings(int a, int b = 2)
+{}
+call like this:
+doThings(1) or doThings(1,2)
+
+////////////prototypes/////////////
+
+if you need to declare before defining (must be declared before calling, in code btw)
+
+int iAmDeclaredButNotDefined (void);
+int iAmDeclaredButNotDefined (int hi, int bye);
+int iAmDeclaredButNotDefined (int, int);
+
+//////////////recursive
+
+
+long factorial(long a){
+    if (a > 1)
+        return (a * factorial ( a-1));
+    else
+        return 1;
+}
