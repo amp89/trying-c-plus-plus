@@ -478,6 +478,73 @@ static storage - globals, not explicity init - init to zero
 auto storage - locals, not exlicitly inited - init to some weird stuffNumber
 
 
+////////////////arrays
+
+
+int someIntArr [10] // an array len 10
+int someIntArr [3] = {234,2134,345}
+
+
+inints to zeros if there are blanks
+
+can assume size
+
+int someIntArr [] = {123,123,123,123,123,12,213,312,321}
+compiler will put the size at however many things i put in there but i'm too lazy to count rn
+
+
+you can do this too
+
+int someIntArr[] = {234,234,243,4}
+int someIntArr[] {234,234,243,4} //same
+
+
+access is standard
+
+miltidimensional arrays work in a standard way
+
+
+
+using arrays as parameters
+     liek:    int arg[]
+              int arg[][3][4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
