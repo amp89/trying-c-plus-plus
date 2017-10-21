@@ -510,11 +510,11 @@ using arrays as parameters
               int arg[][3][4]
 
 
+////////////////array container library
 
 
 
-
-
+#include<int,3> somearr {12,124,135};
 
 
 
