@@ -444,8 +444,38 @@ fnName<atype,btype>(args...)
 
 
 
+non template type argumenhts
+cannot be passed at runtime
+template <class WHATEVER, int CONSTANT>
 
 
+scope
+
+globals declared outside of function
+
+block scopes, kinda like java
+
+
+/////namespaceing
+
+namespace someNamespaceIMade
+{
+   int a, b;
+}
+
+accessed within namespace normally
+accessed outside someNamespaceIMade::a....
+kinda like std::cout
+
+
+
+sidenote: endl is std namespace
+
+
+//////////storage classes
+
+static storage - globals, not explicity init - init to zero
+auto storage - locals, not exlicitly inited - init to some weird stuffNumber
 
 
 
