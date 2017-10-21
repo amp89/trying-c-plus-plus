@@ -518,6 +518,28 @@ using arrays as parameters
 
 
 
+//////////////////////////character sequences
+
+
+char stuff[] = {'H','e','y','\0'};
+
+\0, null, end
+
+char stuff[] = "Hey"; //auto appends \0
+
+null terminated char sequence, not string object
+
+string size is dynamic
+
+null terminated char seq can be converted to string (implicit)
+
+strings > null terminated chars, someStringObj.c_str(); //orsomeStrObj.c_str();
+
+
+
+
+
+
 
 
 
