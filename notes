@@ -578,7 +578,26 @@ int * arraypointer;
 arraypointer (arrayObject+5)  points to location of arrayObject[5]
 
 
+///////////// pointer arithmetic
 
+
++  and -
+
+
+when ++ , points to the following element of the same type
+
+(look at picture http://www.cplusplus.com/doc/tutorial/pointers/)
+
+
+*pointer++ and *(pointer++)  // derefrence value, then increment pointer
+*++pointer *(++pointer) //increment pointer, then dereference value
+++*p or ++(*p) / increment value, dereference pointer
+(*p)++ // dereference pointer,  increment value
+
+
+// const pointers
+
+cont int * pointerToSomeInt // can't change value of int it points to, but they can change the int that they point to
 
 
 

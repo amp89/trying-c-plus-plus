@@ -15,8 +15,9 @@ int main()
     cout << "some array: " << someArray << endl;
     //arrayPointer and someArray are basically the same, but arrayPointer can
     //change
-
+    cout << "array pointer:  pre inc: " << arrayPointer << endl;
     arrayPointer++;
+    cout << "array pointer: post inc: " << arrayPointer << endl;
     *arrayPointer = 20;
 
     arrayPointer = &someArray[2];
