@@ -598,6 +598,27 @@ when ++ , points to the following element of the same type
 // const pointers
 
 cont int * pointerToSomeInt // can't change value of int it points to, but they can change the int that they point to
+const int * const whatever = whatever poitner treats the thing you're pointing to as a constant (even if its not)
+
+
+// pointers with string literals
+
+const char * charPointer = "hey"
+
+h e y \0
+
+charPointer[2] // 'y'
+*(charPointer+1) // 'y'
+
+
+//pointers to pointers
+
+int a = 1;
+int * x = &a;
+int ** y = &x;
+int ***z = &y;
+
+
 
 
 
