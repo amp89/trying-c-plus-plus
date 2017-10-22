@@ -536,10 +536,46 @@ null terminated char seq can be converted to string (implicit)
 strings > null terminated chars, someStringObj.c_str(); //orsomeStrObj.c_str();
 
 
+//////////////////pointers cpp
+
+& address of operator
+* dereference operator
+
+variable address
+addr = &variable;
 
 
+dereference operator
+
+valVar = *addr //assigns value of variable at addr to valVar
 
 
+//// declaring pointser
+
+
+type * name
+
+type of data pointer points to
+name of pointer
+
+* in this case is not a dereference, it is part of the pointer declaration
+
+int * somePointer = &someVariable
+
+int* is pointer to intint * p1, * p2;
+
+if you did int * p1, p2, p2 would be an int and p1 would be an int pointer
+
+////////////arrays and pointers
+int someArray [2];
+int * somePointer;
+
+
+somePointer = someArray; //array is kinda like pointer.  somePointer can be reassigne
+
+offset operator
+int * arraypointer;
+arraypointer (arrayObject+5)  points to location of arrayObject[5]
 
 
 
