@@ -636,6 +636,20 @@ void * pointer;
 pointing towards out of bound indexes
 
 
+NULL works too
+
+
+///////////////////////function pointers
+
+
+returntype (*functionpointer)(argtype,argtype)
+int addStuff(int a, int b){blahblahblah}
+
+int (*addStuffPointer)(int,int) = addStuff;
+
+int res = (*addStuffPointer)(1,2);
+
+
 
 
 
