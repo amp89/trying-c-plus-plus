@@ -619,6 +619,28 @@ int ** y = &x;
 int ***z = &y;
 
 
+//void pointers
+
+no types
+points to any data type
+must be put into correct pointer type before dereferencing
+
+
+
+void * pointer;
+
+
+//null pointers and invalid stuff
+
+
+pointing towards out of bound indexes
+
+
+
+
+
+
+
 
 
 
