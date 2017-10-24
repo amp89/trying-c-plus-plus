@@ -32,7 +32,7 @@ int main()
         for(int idx = 0; idx < i; idx++){
             cout << intPointer[idx] << " " << endl;
             cout << "mem "<< &intPointer[idx] << " " << endl;
-            
+            cout << "mem "<< *intPointer[idx] << " " << endl;
         }
 
         delete[] intPointer;

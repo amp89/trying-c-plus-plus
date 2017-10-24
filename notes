@@ -694,9 +694,56 @@ stdlib.h (in C)
     free
 
 
+/////////////////////////////data structures
+    has different data elements (memebers)
+
+struct type_name{
+    type1 name1;
+    type2... yeah you get it
+}
+
+eg:
+
+struct product {
+    int weight;
+    double price;
+};
+
+product whatever;
+
+struct product {
+ blah blah blah
+} whatever;
+
+dot syntax
+
+whatever.weight
+
+whatever.price
 
 
+arrow operator assigns  the .dot value to the thing that a pointer points at
 
+someStructPointer -> someMemeberOfStruct
+
+//
+
+structPointer -> title
+//same as
+(*structPointer).title
+
+
+*structPointer.title
+//same as
+*(structPointer.title)
+
+
+//nesting okay
+
+struct a {stuff}
+struct b {a someting}
+
+multiple dots, can use arrow ops too
 
 
 
