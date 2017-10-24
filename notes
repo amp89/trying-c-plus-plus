@@ -651,7 +651,47 @@ int res = (*addStuffPointer)(1,2);
 
 
 
+////////////////////dynamic memory
 
+#include <new>
+
+pointer = new type
+pointer = new type [element numberzzzz]
+
+
+you need to point to stuff like
+int * thing;
+thing = new int [5];
+
+*(thing+1)
+or (thing[1])
+
+
+!!!! new assigns memory during runtime
+
+
+
+throws bad_alloc
+
+new (nothrow) int [5];
+
+null pointer is set to foo
+    can check if foo == nullptr
+
+//deleteing it
+
+
+delete pointer; // for stuff
+delete[] pointer;//for arrays
+
+stuff
+
+cstdlib
+stdlib.h (in C)
+    malloc
+    calloc
+    realloc
+    free
 
 
 
